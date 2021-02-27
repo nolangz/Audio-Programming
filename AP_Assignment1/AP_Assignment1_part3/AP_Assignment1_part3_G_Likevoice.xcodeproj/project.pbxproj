@@ -1,0 +1,325 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7F805F8525C9BBB400BA690D /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7F805F8425C9BBB400BA690D /* main.cpp */; };
+		7F805F9625C9BBC900BA690D /* AudioPlayerOpenAL.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7F805F8D25C9BBC900BA690D /* AudioPlayerOpenAL.cpp */; };
+		7F805F9725C9BBC900BA690D /* WavCodec.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7F805F9025C9BBC900BA690D /* WavCodec.cpp */; };
+		7F805F9825C9BBC900BA690D /* AudioPlayerWindows.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7F805F9125C9BBC900BA690D /* AudioPlayerWindows.cpp */; };
+		7F805F9925C9BBC900BA690D /* AudioPlayerOsX.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7F805F9325C9BBC900BA690D /* AudioPlayerOsX.cpp */; };
+		7F805F9D25C9BC2100BA690D /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F805F9C25C9BC2100BA690D /* OpenAL.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		7F805F7F25C9BBB400BA690D /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		7F805F8125C9BBB400BA690D /* AP_Assignment1_part3_G_Likevoice */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = AP_Assignment1_part3_G_Likevoice; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F805F8425C9BBB400BA690D /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		7F805F8D25C9BBC900BA690D /* AudioPlayerOpenAL.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AudioPlayerOpenAL.cpp; sourceTree = "<group>"; };
+		7F805F8E25C9BBC900BA690D /* AudioPlayerWindows.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = AudioPlayerWindows.hpp; sourceTree = "<group>"; };
+		7F805F8F25C9BBC900BA690D /* AudioPlayerOsX.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = AudioPlayerOsX.hpp; sourceTree = "<group>"; };
+		7F805F9025C9BBC900BA690D /* WavCodec.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = WavCodec.cpp; sourceTree = "<group>"; };
+		7F805F9125C9BBC900BA690D /* AudioPlayerWindows.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AudioPlayerWindows.cpp; sourceTree = "<group>"; };
+		7F805F9225C9BBC900BA690D /* WavCodec.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = WavCodec.hpp; sourceTree = "<group>"; };
+		7F805F9325C9BBC900BA690D /* AudioPlayerOsX.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AudioPlayerOsX.cpp; sourceTree = "<group>"; };
+		7F805F9425C9BBC900BA690D /* AudioPlayerOpenAL.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = AudioPlayerOpenAL.hpp; sourceTree = "<group>"; };
+		7F805F9525C9BBC900BA690D /* MattsAudioTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MattsAudioTools.h; sourceTree = "<group>"; };
+		7F805F9C25C9BC2100BA690D /* OpenAL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenAL.framework; path = System/Library/Frameworks/OpenAL.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7F805F7E25C9BBB400BA690D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F805F9D25C9BC2100BA690D /* OpenAL.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7F805F7825C9BBB400BA690D = {
+			isa = PBXGroup;
+			children = (
+				7F805F8325C9BBB400BA690D /* AP_Assignment1_part3_G_Likevoice */,
+				7F805F8225C9BBB400BA690D /* Products */,
+				7F805F9B25C9BC2000BA690D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		7F805F8225C9BBB400BA690D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7F805F8125C9BBB400BA690D /* AP_Assignment1_part3_G_Likevoice */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7F805F8325C9BBB400BA690D /* AP_Assignment1_part3_G_Likevoice */ = {
+			isa = PBXGroup;
+			children = (
+				7F805F8C25C9BBC900BA690D /* src */,
+				7F805F8425C9BBB400BA690D /* main.cpp */,
+			);
+			path = AP_Assignment1_part3_G_Likevoice;
+			sourceTree = "<group>";
+		};
+		7F805F8C25C9BBC900BA690D /* src */ = {
+			isa = PBXGroup;
+			children = (
+				7F805F8D25C9BBC900BA690D /* AudioPlayerOpenAL.cpp */,
+				7F805F8E25C9BBC900BA690D /* AudioPlayerWindows.hpp */,
+				7F805F8F25C9BBC900BA690D /* AudioPlayerOsX.hpp */,
+				7F805F9025C9BBC900BA690D /* WavCodec.cpp */,
+				7F805F9125C9BBC900BA690D /* AudioPlayerWindows.cpp */,
+				7F805F9225C9BBC900BA690D /* WavCodec.hpp */,
+				7F805F9325C9BBC900BA690D /* AudioPlayerOsX.cpp */,
+				7F805F9425C9BBC900BA690D /* AudioPlayerOpenAL.hpp */,
+				7F805F9525C9BBC900BA690D /* MattsAudioTools.h */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		7F805F9B25C9BC2000BA690D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7F805F9C25C9BC2100BA690D /* OpenAL.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7F805F8025C9BBB400BA690D /* AP_Assignment1_part3_G_Likevoice */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7F805F8825C9BBB400BA690D /* Build configuration list for PBXNativeTarget "AP_Assignment1_part3_G_Likevoice" */;
+			buildPhases = (
+				7F805F7D25C9BBB400BA690D /* Sources */,
+				7F805F7E25C9BBB400BA690D /* Frameworks */,
+				7F805F7F25C9BBB400BA690D /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AP_Assignment1_part3_G_Likevoice;
+			productName = Assignment1_part3_G_Likevoice;
+			productReference = 7F805F8125C9BBB400BA690D /* AP_Assignment1_part3_G_Likevoice */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7F805F7925C9BBB400BA690D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					7F805F8025C9BBB400BA690D = {
+						CreatedOnToolsVersion = 12.3;
+					};
+				};
+			};
+			buildConfigurationList = 7F805F7C25C9BBB400BA690D /* Build configuration list for PBXProject "AP_Assignment1_part3_G_Likevoice" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7F805F7825C9BBB400BA690D;
+			productRefGroup = 7F805F8225C9BBB400BA690D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7F805F8025C9BBB400BA690D /* AP_Assignment1_part3_G_Likevoice */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7F805F7D25C9BBB400BA690D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F805F9625C9BBC900BA690D /* AudioPlayerOpenAL.cpp in Sources */,
+				7F805F9825C9BBC900BA690D /* AudioPlayerWindows.cpp in Sources */,
+				7F805F9725C9BBC900BA690D /* WavCodec.cpp in Sources */,
+				7F805F9925C9BBC900BA690D /* AudioPlayerOsX.cpp in Sources */,
+				7F805F8525C9BBB400BA690D /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		7F805F8625C9BBB400BA690D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		7F805F8725C9BBB400BA690D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		7F805F8925C9BBB400BA690D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7F805F8A25C9BBB400BA690D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7F805F7C25C9BBB400BA690D /* Build configuration list for PBXProject "AP_Assignment1_part3_G_Likevoice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F805F8625C9BBB400BA690D /* Debug */,
+				7F805F8725C9BBB400BA690D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7F805F8825C9BBB400BA690D /* Build configuration list for PBXNativeTarget "AP_Assignment1_part3_G_Likevoice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F805F8925C9BBB400BA690D /* Debug */,
+				7F805F8A25C9BBB400BA690D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7F805F7925C9BBB400BA690D /* Project object */;
+}
